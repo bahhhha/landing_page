@@ -1,20 +1,29 @@
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-color: #1f2937;
+    background-color: #1d1d1d;
 }
 
+.containers {
+    margin: 0%;
+}
 .container {
     display: flex;
     flex-direction: column;
 }
 
 .container1 {
-    background-color: #1f2937;
+    background-color: #1d1d1d;
+    background-image: radial-gradient(#383838 1.05px, #1d1d1d 1.05px);
+    background-size: 21px 21px;
 }
 
+.container2 {
+    padding: 30px;
+    background-color: rgb(238, 238, 238);
+}
 .content1 {
     margin: auto;
-    width: 50%;
+    width: 55%;
     color: white;
 }
 
@@ -33,6 +42,8 @@ body {
 }
 .menu {
     padding-top: 15%;
+    padding-bottom: 5%;
+
 }
 
 .subtext {
@@ -46,10 +57,13 @@ body {
 .opening {
     font-size: 48px;
     width: 50%;
-    font-weight: 900;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
+.top {
+    margin-top: 2%;
+}
 #signup {
     border: none;
     margin-top: 2%;
@@ -60,5 +74,129 @@ body {
     color: #F9FAF8;
     border-radius: 10px;
     font-size: 18px;
-    background-color: #3882f6;
+    background-color: #c7828e;
+    font-weight: bold;
+}
+
+#image {
+    width: 40%;
+    float: right;
+    position: relative;
+    top: -230px;
+}
+
+#info {
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 36px;
+    font-weight: 900;
+    color: #c7828e;
+    text-shadow: 4px 3px 0px rgba(151, 151, 151, 0.3);
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.textunder {
+    width: 150px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-style: italic;
+    color: #c7828e;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: #c7828e 3px solid;
+    box-shadow: 4px 3px 0px rgba(151, 151, 151, 0.6);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    background-color: #c7828e;
+}
+.quote {
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    width: 40%;
+}
+#name {
+    font-size: 20px;
+    float: right;
+    padding-top: 60px;
+    font-weight: bold;
+    font-style: normal;
+}
+.container4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding: 90px;
+    background-color: #ffffff;
+    background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 17.5px 17.5px, linear-gradient(#c9c9c9 1.4000000000000001px, transparent 1.4000000000000001px) 0 -0.7000000000000001px, linear-gradient(90deg, #c9c9c9 1.4000000000000001px, #ffffff 1.4000000000000001px) -0.7000000000000001px 0;
+    background-size: 35px 35px, 35px 35px, 17.5px 17.5px, 17.5px 17.5px;
+}
+#bluebox {
+    display: flex;
+    flex-direction: row;
+    color: #F9FAF8;
+    background-color: #c7828e;
+    box-shadow: 7px 6px 0px rgba(151, 151, 151, 0.3);
+    padding: 40px 70px 40px 70px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.box2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#action {
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+#but2 {
+    margin-top: 5px;
+    border: 1px solid #E5E7EB;
+    color: #E5E7EB;
+    font-size: 14px;
+    padding: 7px 20px 7px 20px;
+    background-color: #c7828e;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    color: #E5E7EB;
+    background-color: #1d1d1d;
 }
