@@ -1,0 +1,64 @@
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #1f2937;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    background-color: #1f2937;
+}
+
+.content1 {
+    margin: auto;
+    width: 50%;
+    color: white;
+}
+
+
+.headerlinks a {
+    margin-left: 3%;
+    float: right;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.menu {
+    padding-top: 15%;
+}
+
+.subtext {
+    width: 47%;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 1%;
+    font-weight: lighter;
+}
+
+.opening {
+    font-size: 48px;
+    width: 50%;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#signup {
+    border: none;
+    margin-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #3882f6;
+}
